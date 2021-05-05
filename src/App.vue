@@ -32,7 +32,7 @@ export default {
 
         nominateMovie: function(movie) {
             console.log(movie)
-            
+
         },
         falseLoad: function() {
 

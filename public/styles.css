@@ -1,0 +1,15 @@
+html {
+  background-color: beige;
+ 
+}
+body {
+    height:calc(100% - 60px);
+    background-color: beige;
+    border: solid 15px pink;
+    border-bottom: none;
+}
+
+
+* {
+    
+}

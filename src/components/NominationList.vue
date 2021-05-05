@@ -25,6 +25,7 @@ export default {
         }
     },
     props: ['nominees'],
+
     // computed: appendMovie: function() {
     //     return 
 
