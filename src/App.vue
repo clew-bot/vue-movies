@@ -24,7 +24,7 @@ export default {
             this.inputChange && clearTimeout(this.inputChange);
             this.inputChange = setTimeout(async () => {
             try {
-            const res = await axios.get(`http://www.omdbapi.com/?s=${searchTerm}&apikey=dd33970d&type=movie&y=&plot=short&`)
+            const res = await axios.get(`https://www.omdbapi.com/?s=${searchTerm}&apikey=dd33970d&type=movie&y=&plot=short&`)
             console.log(res);
             this.movies = res.data.Search
             console.log("state", this.movies)
